@@ -35,6 +35,10 @@ class TV:
     def channel_up(self):
         if self.channel <= 120:
             self.channel += 1
+
     # Channel down
+    def channel_down(self):
+        if self.channel > 1:
+            self.channel -= 1
     # Volume up
     # Volume down
