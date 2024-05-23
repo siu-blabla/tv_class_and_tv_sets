@@ -8,7 +8,10 @@ class TV:
         self.is_on = False
 
     # Create the turn on method
-    # Create the turn off method
+    def turn_on(self):
+        self.is_on = True
+
+    # Create the turnoff method
     # Set the channel
     # Get the volume
     # Channel up
