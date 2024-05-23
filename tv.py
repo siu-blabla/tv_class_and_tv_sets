@@ -1,4 +1,5 @@
 # Create a class
+class TV:
 # Create constructor
 # Instance Variable
 # Create the turn on method
