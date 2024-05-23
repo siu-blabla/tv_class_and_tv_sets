@@ -3,6 +3,8 @@ class TV:
     # Create constructor
     def __init__(self) :
         # Instance Variable
+        self.channel = 1
+
     # Create the turn on method
     # Create the turn off method
     # Set the channel
