@@ -16,6 +16,13 @@ class TV:
         self.is_on = False
 
     # Set the channel
+    def get_channel(self):
+        return self.channel
+
+    def set_channel(self, channel):
+        if 1 <= channel <= 120:
+            self.channel = channel
+
     # Get the volume
     # Channel up
     # Channel down
