@@ -15,4 +15,6 @@ tv1.set_volume(3)
 tv2.set_channel(3)
 
 # Set the volume of tv2 to 2
+tv2.set_volume(2)
+
 # Print the output channel and volume level of tv1 and tv2
