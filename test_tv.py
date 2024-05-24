@@ -6,6 +6,8 @@ tv1 = TV()
 tv2 = TV()
 
 # Set the channel of tv1 to 30
+tv1.set_channel(30)
+
 # Set the volume of tv1 to 3
 # Set the channel of tv2 to 3
 # Set the volume of tv2 to 2
